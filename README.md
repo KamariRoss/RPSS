@@ -1,25 +1,22 @@
-# Default Template for SDG .NET Course
+Rock Paper Scissors!
+Create a simple Rock-Paper-Scissors game using C# in which the player plays against a computer.
 
-This is the default template for a simple .NET Core console app. This template has:
+Objectives
+Practice conditional logic
+Practice creating an algorithm
+Requirements
+A gentle reminder, do explorer mode first, then focus on the adventure.
 
-- github integration
+Background
+See the Wikipedia page about Rock, Paper, Scissors
 
-## To push to github
-
-To create and push your current code to github, use the task `create-github`.
-
-How?
-
-1. Open your command pallette by using (Mac) `shift + cmd + p` or (Windows) `shift + ctrl + p`
-2. Search and Select `Tasks: Run Task`
-3. Select `create-github` from the dropdown
-
-This will create a new github repo, locally and up on github and also push your current code.
-
-## To turn in your assignment:
-
-after you have created a github repo, completed your project and pushed your code, follow these instructions: https://suncoast.io/handbook/tools/assignment-turn-in/
-
-## PROTIP:
-
-When you are complete with the project and have turned it in to your instructor, update this read me with details about the assignment.
+How to get started
+Get familiar with rock, paper, scissors if you haven't played before (or in a while)
+Write out in English, ALL the steps the application needs to take
+Explorer Mode
+As a user, I should see a welcome message.
+As a user, I should see the options I can pick (i.e., "rock", "paper", "scissor")
+The computer should randomly decide one of the options.
+You program should then decide who the winner is;
+The user should then see the randomly selected option, as well as a win or lose message.
+add some validation around user input.
