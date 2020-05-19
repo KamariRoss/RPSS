@@ -13,12 +13,8 @@ namespace RPSS
                 var difficulty = Console.ReadLine().ToLower();
                 // The computer should randomly decide one of the options.
                 Random rnd = new Random();
-                // create random options sting for the game
-
                 // select random option
-
                 // You program should then decide who the winner is;
-
                 if (difficulty != "normal" && difficulty != "easy" && difficulty != "impossible")
                 {
                     incorrectAnswer = true;
